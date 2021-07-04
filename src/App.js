@@ -15,7 +15,7 @@ function App() {
     const [gasConsumed, setGasConsumed] = useState(null);
     const [outcome, setOutcome] = useState(null);
     const [contractAddress, setContractAddress] = useState(null);
-    const [blockchainUrl, setBlockchainUrl] = useState('wss://canvas.polk4.net');
+    const [blockchainUrl, setBlockchainUrl] = useState('ws://127.0.0.1:9944');
 
     // NOTE the apps UI specified these in mega units -> https://polkadot.js.org/docs/api-contract/start/contract.read
     const gasLimit = 3000n * 1000000n;

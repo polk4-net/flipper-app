@@ -1,5 +1,7 @@
 # ⛓ Substrate contract Web App interactor template - for stock flipper ⛓
 
+![flipper-app](screenshot.png)
+
 This project has everything you need to have an idea how to interact with your deployed Substrate contract.
 
 It uses compiled contract well known as flipper (`cargo contract new flipper`)
@@ -38,5 +40,5 @@ Your app is ready to be deployed!
 See the section about [deployment](https://facebook.github.io/create-react-app/docs/deployment) for more information.
 
 ## License
-polk4-web is [MIT licensed](LICENSE)
+flipper-app under polk4-web is [MIT licensed](LICENSE)
 
